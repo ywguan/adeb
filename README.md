@@ -160,7 +160,7 @@ TODO: We should auto detect this issue and provide an informative error.  This
 is because we only provide pre-built filesystems for ARM 64-bit at the moment.
 
 ### How to build with other Debian distro
-By default adeb use `buster` as default. You can change with --distro.
+By default adeb use `bullseye`. You can change with --distro.
 ```
 adeb prepare --build --distro bullseye
 ```

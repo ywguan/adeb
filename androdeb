@@ -12,7 +12,7 @@ source $spath/utils/banners
 source $spath/utils/remote
 
 # Set default vars
-DISTRO=buster; ARCH=arm64
+DISTRO=bullseye; ARCH=arm64
 ADB="adb"
 REMOTE="adb"
 FULL=0				# Default to a minimal install
@@ -22,7 +22,7 @@ INSTALL_BCC=0			# Decide if BCC is to be installed
 
 # Default packages
 PACKAGES=""
-DEFAULT_PACKAGES="bash ca-certificates apt net-tools iputils-ping procps vim"
+DEFAULT_PACKAGES="bash ca-certificates apt net-tools iputils-ping procps vim xz-utils"
 
 EXTRA_FILES="none"
 

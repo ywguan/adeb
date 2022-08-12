@@ -1,6 +1,6 @@
 PACKAGES+="
-llvm-7-dev
-libclang-7-dev
+llvm-dev
+libclang-dev
 libelf-dev
 libfl-dev
 libunwind-dev
@@ -16,10 +16,11 @@ arping
 ethtool
 flex
 bison
-python
-clang-7
-python-netaddr
-python-pyroute2
+clang
+python3
+python-is-python3
+python3-netaddr
+python3-pyroute2
 python3-distutils
 "
 

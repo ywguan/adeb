@@ -37,7 +37,7 @@ usage() {
 	c_info "	** Folowing are misc build options **"
 	c_info "	  --tempdir	Use a specific temporary directory for build operation"
 	c_info "	  --arch		Specify an ARCH to build for (default arm64)"
-	c_info "	  --distro	Debian distro to base on (default is buster)"
+	c_info "	  --distro	Debian distro to base on (default is bullseye)"
 	c_info ""
 	c_info "	** Folowing are the options for BCC **"
 	c_info "	  --bcc		Build and install BCC onto the device, from source"
