@@ -159,6 +159,12 @@ adeb.  Without this, adeb tries to download an ARM image and will not work.
 TODO: We should auto detect this issue and provide an informative error.  This
 is because we only provide pre-built filesystems for ARM 64-bit at the moment.
 
+### How to build with other Debian distro
+By default adeb use `buster` as default. You can change with --distro.
+```
+adeb prepare --build --distro bullseye
+```
+
 Common Trouble shooting
 -----------------
 1. Installing g++ with `apt-get install g++` fails.

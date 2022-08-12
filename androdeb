@@ -53,6 +53,7 @@ case $key in
     prepare) PREPARE=1;  shift || true;    ;;
     --full) FULL=1; config_full_build; shift || true; ;;
     --arch) ARCH=$2; shift || true; shift || true; ;;
+    --distro) DISTRO=$2; shift || true; shift || true; ;;
     --archive) DOWNLOAD=0; TARF=$2; shift || true; shift || true; ;;
     --bcc) FULL=1; source $spath/packages/bcc; shift || true;     ;;
     --tempdir) TDIR="$2"; shift || true;     shift || true;     ;;
